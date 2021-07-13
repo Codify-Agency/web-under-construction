@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h3, strong {
+  font-weight: 700;
+}
+
+.banner {
+  background: url("images/banner-codify.jpg") center center no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info .logo {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  height: 150px;
+  line-height: 0;
+  margin: -5rem auto 0 auto;
+  padding: .3rem;
+  width: 150px;
+}
+.info .logo img {
+  width: 100%;
+}
+
+.info h2 {
+  margin-bottom: .5rem;
+}
+
+.info .link {
+  margin-right: .5rem;
+  text-decoration: none;
+}
+.info .link:last-child {
+  margin-right: 0;
+}
+.info .link:hover {
+  opacity: .7;
+}
+.info .link img {
+  height: 48px;
+}
+
+footer .copy {
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .banner {
+    height: 280px;
+  }
+}
